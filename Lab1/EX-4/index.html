@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linglee Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="dashboard">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-box">L</span>
+                <h2>Linglee</h2>
+            </div>
+
+            <nav class="menu">
+                <a href="#" class="active">Dashboard</a>
+                <a href="#">Classes</a>
+                <a href="#">Resources</a>
+                <a href="#">Learning plan</a>
+                <a href="#">Chat <span class="badge">4</span></a>
+                <a href="#">Settings</a>
+            </nav>
+
+            <div class="upgrade-card">
+                <p>Upgrade to <b>PRO</b> for more resources.</p>
+                <button>Upgrade</button>
+            </div>
+        </aside>
+
+        <!-- Main Center Content -->
+        <main class="main">
+            <header class="header">
+                <h1>Dashboard</h1>
+                <div class="header-right">
+                    <span class="date">20 Sep 2026, Friday</span>
+                    <button class="search-btn">🔍</button>
+                </div>
+            </header>
+
+            <!-- Banner -->
+            <section class="banner">
+                <div class="banner-text">
+                    <h2>Welcome back Sambath!</h2>
+                    <p>You've learned <b>80%</b> of your goal this week!<br>Keep it up and improve your results!</p>
+                </div>
+                <img src="assets/portrait.jpg" alt="Profile" class="banner-img">
+            </section>
+
+            <!-- Middle 2-Column Grid -->
+            <section class="middle-grid">
+                <!-- Latest Results -->
+                <div class="box">
+                    <div class="box-header">
+                        <h3>Latest results</h3>
+                        <a href="#">More →</a>
+                    </div>
+                    <div class="results">
+                        <div class="result-item">
+                            <span><b>Unit 5</b> - Technology</span>
+                            <div class="bar"><div class="fill red" style="width: 25%;"></div></div>
+                            <span class="percent red-text">25%</span>
+                        </div>
+                        <div class="result-item">
+                            <span><b>Unit 12</b> - Ecology</span>
+                            <div class="bar"><div class="fill blue" style="width: 44%;"></div></div>
+                            <span class="percent blue-text">44%</span>
+                        </div>
+                        <div class="result-item">
+                            <span><b>Unit 9</b> - Real estate</span>
+                            <div class="bar"><div class="fill blue" style="width: 40%;"></div></div>
+                            <span class="percent blue-text">40%</span>
+                        </div>
+                        <div class="result-item">
+                            <span><b>Unit 8</b> - Education</span>
+                            <div class="bar"><div class="fill red" style="width: 15%;"></div></div>
+                            <span class="percent red-text">15%</span>
+                        </div>
+                        <div class="result-item">
+                            <span><b>Unit 16</b> - Job market</span>
+                            <div class="bar"><div class="fill blue" style="width: 76%;"></div></div>
+                            <span class="percent blue-text">76%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Time Spent -->
+                <div class="box">
+                    <div class="box-header">
+                        <h3>Time spent on learning</h3>
+                        <span>Last week ▾</span>
+                    </div>
+                    <div class="chart">
+                        <div class="day"><span>Mon</span><div class="track"><div class="col red" style="height: 60%;"></div></div></div>
+                        <div class="day"><span>Tue</span><div class="track"><div class="col blue" style="height: 80%;"></div></div></div>
+                        <div class="day"><span>Wed</span><div class="track"><div class="col red" style="height: 40%;"></div></div></div>
+                        <div class="day"><span>Thu</span><div class="track"><div class="col blue" style="height: 90%;"></div></div></div>
+                        <div class="day"><span>Fri</span><div class="track"><div class="col red" style="height: 50%;"></div></div></div>
+                        <div class="day"><span>Sat</span><div class="track"><div class="col blue" style="height: 70%;"></div></div></div>
+                        <div class="day"><span>Sun</span><div class="track"><div class="col blue" style="height: 85%;"></div></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bottom 3-Column Courses -->
+            <section class="courses">
+                <div class="box-header">
+                    <h3>Your courses</h3>
+                    <a href="#">More →</a>
+                </div>
+                <div class="courses-grid">
+                    <div class="course-card purple">
+                        <span class="tag">B2</span>
+                        <div>
+                            <small>Business English</small>
+                            <h4>Grammar</h4>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                    <div class="course-card light-purple">
+                        <span class="tag">B2</span>
+                        <div>
+                            <small>Common English</small>
+                            <h4>Phrasal verbs</h4>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                    <div class="course-card pink">
+                        <span class="tag">C1</span>
+                        <div>
+                            <small>Business Spanish</small>
+                            <h4>Vocabulary</h4>
+                        </div>
+                        <span class="arrow">→</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Profile Panel -->
+        <aside class="profile-panel">
+            <div class="logout">
+                <span>Logout</span>
+                <button>→</button>
+            </div>
+
+            <div class="user-info">
+                <img src="assets/portrait.jpg" alt="Avatar" class="avatar">
+                <h3>Sambath Thich</h3>
+                <p>Student</p>
+            </div>
+
+            <div class="lang-list">
+                <div class="lang-row">
+                    <span class="lang-badge">B2</span>
+                    <div class="lang-text">
+                        <h4>English</h4>
+                        <small>High intermediate</small>
+                    </div>
+                    <div class="bar small-bar"><div class="fill blue" style="width: 75%;"></div></div>
+                </div>
+                <div class="lang-row">
+                    <span class="lang-badge">C1</span>
+                    <div class="lang-text">
+                        <h4>Spanish</h4>
+                        <small>Advanced</small>
+                    </div>
+                    <div class="bar small-bar"><div class="fill blue" style="width: 60%;"></div></div>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="box-header">
+                    <h4>Reminders</h4>
+                    <span>🔔</span>
+                </div>
+                <div class="reminder-item">
+                    <span class="icon red-bg">!</span>
+                    <div>
+                        <h4>Eng - Vocabulary test</h4>
+                        <small>24 Sep 2026, Friday</small>
+                    </div>
+                </div>
+                <div class="reminder-item">
+                    <span class="icon blue-bg">✉</span>
+                    <div>
+                        <h4>Eng - Send grammar homework</h4>
+                        <small>29 Sep 2026, Wednesday</small>
+                    </div>
+                </div>
+                <div class="reminder-item">
+                    <span class="icon blue-bg">✉</span>
+                    <div>
+                        <h4>Spanish - Send essay</h4>
+                        <small>05 Oct 2026, Monday</small>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>
